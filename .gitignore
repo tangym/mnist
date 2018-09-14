@@ -102,3 +102,8 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# ignore large dataset files which can be downloaded from https://www.kaggle.com/c/digit-recognizer/data
+train.csv
+test.csv
+sample_submission.csv
